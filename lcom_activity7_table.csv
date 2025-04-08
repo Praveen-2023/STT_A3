@@ -1,0 +1,6 @@
+Java Code,LCOM1,LCOM2,LCOM3,LCOM4,LCOM5,YALCOM
+org.apache.commons.collections4.bidimap.TreeBidiMap,11287.0,10639.0,65.0,30.0,0.9712787212787212,0.1870967741935484
+org.apache.commons.collections4.trie.AbstractPatriciaTrie,10879.0,9977.0,61.0,46.0,0.9691027926322044,0.14935064935064934
+org.apache.commons.collections4.map.ConcurrentReferenceHashMap,6383.0,4510.0,44.0,32.0,0.9708426339285714,0.17054263565891473
+org.apache.commons.collections4.MapUtils,4371.0,0.0,94.0,90.0,1.0053763440860215,0.9574468085106383
+org.apache.commons.collections4.multimap.AbstractMultiValuedMap,3654.0,3122.0,41.0,20.0,0.9505494505494505,0.1956521739130435

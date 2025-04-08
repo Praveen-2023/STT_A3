@@ -1,0 +1,11 @@
+Highly Coupled Modules (Top 5 by Fan-Out):
+__main__: 78 dependencies
+httpie.core: 22 dependencies
+httpie.output.formatters.colors: 21 dependencies
+httpie.cli.argparser: 18 dependencies
+httpie.client: 18 dependencies
+
+Cyclic Dependencies Detected:
+['__main__', 'defusedxml', 'defusedxml.minidom', 'httpie.adapters', 'httpie.cli.argparser', 'httpie.cli.options', 'httpie.cli.requestitems', 'httpie.client', 'httpie.context', 'httpie.downloads', 'httpie.internal.daemon_runner', 'httpie.internal.daemons', 'httpie.internal.update_warnings', 'httpie.legacy.v3_1_0_session_cookie_format', 'httpie.legacy.v3_2_0_session_header_format', 'httpie.manager.__main__', 'httpie.manager.cli', 'httpie.manager.core', 'httpie.manager.tasks', 'httpie.manager.tasks.check_updates', 'httpie.manager.tasks.export_args', 'httpie.manager.tasks.plugins', 'httpie.manager.tasks.sessions', 'httpie.models', 'httpie.output.formatters.colors', 'httpie.output.formatters.json', 'httpie.output.formatters.xml', 'httpie.output.lexers.http', 'httpie.output.lexers.metadata', 'httpie.output.models', 'httpie.output.processing', 'httpie.output.streams', 'httpie.output.ui.man_pages', 'httpie.output.ui.rich_help', 'httpie.output.ui.rich_progress', 'httpie.output.ui.rich_utils', 'httpie.output.writer', 'httpie.plugins.builtin', 'httpie.plugins.manager', 'httpie.plugins.registry', 'httpie.ssl_', 'httpie.uploads', 'pygments.formatters', 'pygments.formatters.terminal', 'pygments.formatters.terminal256', 'pygments.lexer', 'pygments.lexers', 'pygments.lexers.data', 'pygments.lexers.special', 'pygments.lexers.text', 'pygments.style', 'pygments.styles', 'requests.adapters', 'rich.console', 'rich.highlighter', 'rich.padding', 'rich.progress', 'rich.style', 'rich.table', 'rich.text', 'rich.theme', 'urllib3']
+
+Maximum Dependency Depth: 2

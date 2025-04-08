@@ -1,0 +1,2103 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "httpie",
+            "httpie.__main__",
+            "httpie.adapters",
+            "httpie.cli",
+            "httpie.cli.argparser",
+            "httpie.cli.argtypes",
+            "httpie.cli.constants",
+            "httpie.cli.definition",
+            "httpie.cli.dicts",
+            "httpie.cli.exceptions",
+            "httpie.cli.nested_json",
+            "httpie.cli.nested_json.errors",
+            "httpie.cli.nested_json.interpret",
+            "httpie.cli.nested_json.parse",
+            "httpie.cli.nested_json.tokens",
+            "httpie.cli.options",
+            "httpie.cli.requestitems",
+            "httpie.cli.utils",
+            "httpie.client",
+            "httpie.compat",
+            "httpie.config",
+            "httpie.context",
+            "httpie.cookies",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.encoding",
+            "httpie.internal",
+            "httpie.internal.__build_channel__",
+            "httpie.internal.daemon_runner",
+            "httpie.internal.daemons",
+            "httpie.internal.update_warnings",
+            "httpie.legacy",
+            "httpie.legacy.v3_1_0_session_cookie_format",
+            "httpie.legacy.v3_2_0_session_header_format",
+            "httpie.manager",
+            "httpie.manager.__main__",
+            "httpie.manager.cli",
+            "httpie.manager.compat",
+            "httpie.manager.core",
+            "httpie.manager.tasks",
+            "httpie.manager.tasks.check_updates",
+            "httpie.manager.tasks.export_args",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions",
+            "httpie.models",
+            "httpie.output",
+            "httpie.output.formatters",
+            "httpie.output.formatters.colors",
+            "httpie.output.formatters.headers",
+            "httpie.output.formatters.json",
+            "httpie.output.formatters.xml",
+            "httpie.output.lexers",
+            "httpie.output.lexers.common",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.json",
+            "httpie.output.lexers.metadata",
+            "httpie.output.models",
+            "httpie.output.processing",
+            "httpie.output.streams",
+            "httpie.output.ui",
+            "httpie.output.ui.man_pages",
+            "httpie.output.ui.palette",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette",
+            "httpie.output.ui.rich_progress",
+            "httpie.output.ui.rich_utils",
+            "httpie.output.utils",
+            "httpie.output.writer",
+            "httpie.plugins",
+            "httpie.plugins.base",
+            "httpie.plugins.builtin",
+            "httpie.plugins.manager",
+            "httpie.plugins.registry",
+            "httpie.sessions",
+            "httpie.ssl_",
+            "httpie.status",
+            "httpie.uploads",
+            "httpie.utils"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "charset_normalizer": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.encoding",
+            "requests"
+        ],
+        "name": "charset_normalizer",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\__init__.py"
+    },
+    "charset_normalizer.constant": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.encoding"
+        ],
+        "name": "charset_normalizer.constant",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\constant.py"
+    },
+    "colorama": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.context"
+        ],
+        "imports": [
+            "colorama.initialise"
+        ],
+        "name": "colorama",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\colorama\\__init__.py"
+    },
+    "colorama.AnsiToWin32": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.context"
+        ],
+        "name": "colorama.AnsiToWin32",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\colorama\\AnsiToWin32.py"
+    },
+    "colorama.initialise": {
+        "bacon": 2,
+        "imported_by": [
+            "colorama",
+            "httpie.context"
+        ],
+        "name": "colorama.initialise",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\colorama\\initialise.py"
+    },
+    "defusedxml": {
+        "bacon": 2,
+        "imported_by": [
+            "defusedxml",
+            "defusedxml.minidom",
+            "httpie.output.formatters.xml"
+        ],
+        "imports": [
+            "defusedxml",
+            "defusedxml.common",
+            "defusedxml.minidom"
+        ],
+        "name": "defusedxml",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\defusedxml\\__init__.py"
+    },
+    "defusedxml.common": {
+        "bacon": 2,
+        "imported_by": [
+            "defusedxml",
+            "httpie.output.formatters.xml"
+        ],
+        "name": "defusedxml.common",
+        "path": null
+    },
+    "defusedxml.minidom": {
+        "bacon": 2,
+        "imported_by": [
+            "defusedxml",
+            "httpie.output.formatters.xml"
+        ],
+        "imports": [
+            "defusedxml"
+        ],
+        "name": "defusedxml.minidom",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\defusedxml\\minidom.py"
+    },
+    "httpie": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.__main__",
+            "httpie.adapters",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.cli.options",
+            "httpie.client",
+            "httpie.compat",
+            "httpie.config",
+            "httpie.context",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.internal.daemon_runner",
+            "httpie.internal.daemons",
+            "httpie.internal.update_warnings",
+            "httpie.legacy.v3_1_0_session_cookie_format",
+            "httpie.legacy.v3_2_0_session_header_format",
+            "httpie.manager.__main__",
+            "httpie.manager.cli",
+            "httpie.manager.compat",
+            "httpie.manager.core",
+            "httpie.manager.tasks",
+            "httpie.manager.tasks.check_updates",
+            "httpie.manager.tasks.export_args",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.metadata",
+            "httpie.output.models",
+            "httpie.output.ui.man_pages",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette",
+            "httpie.output.ui.rich_progress",
+            "httpie.output.ui.rich_utils",
+            "httpie.plugins.manager",
+            "httpie.utils"
+        ],
+        "name": "httpie",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\__init__.py"
+    },
+    "httpie.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.internal.daemons"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.core",
+            "httpie.status"
+        ],
+        "name": "httpie.__main__",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\__main__.py"
+    },
+    "httpie.adapters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.client",
+            "httpie.ssl_"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.dicts",
+            "requests",
+            "requests.adapters"
+        ],
+        "name": "httpie.adapters",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\adapters.py"
+    },
+    "httpie.cli": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.adapters",
+            "httpie.cli.definition",
+            "httpie.cli.options",
+            "httpie.client",
+            "httpie.core",
+            "httpie.manager.__main__",
+            "httpie.manager.cli",
+            "httpie.manager.tasks.export_args",
+            "httpie.models",
+            "httpie.output.models",
+            "httpie.output.ui.rich_help",
+            "httpie.output.writer",
+            "httpie.sessions",
+            "httpie.uploads"
+        ],
+        "name": "httpie.cli",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\__init__.py"
+    },
+    "httpie.cli.argparser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.options",
+            "httpie.manager.cli"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli.argtypes",
+            "httpie.cli.constants",
+            "httpie.cli.exceptions",
+            "httpie.cli.requestitems",
+            "httpie.context",
+            "httpie.output",
+            "httpie.output.ui",
+            "httpie.output.ui.man_pages",
+            "httpie.output.ui.rich_help",
+            "httpie.plugins",
+            "httpie.plugins.registry",
+            "httpie.ssl_",
+            "httpie.utils",
+            "requests",
+            "requests.utils",
+            "rich",
+            "rich.text"
+        ],
+        "name": "httpie.cli.argparser",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\argparser.py"
+    },
+    "httpie.cli.argtypes": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.cli.requestitems",
+            "httpie.output.models",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie.cli.constants",
+            "httpie.sessions"
+        ],
+        "name": "httpie.cli.argtypes",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\argtypes.py"
+    },
+    "httpie.cli.constants": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.argtypes",
+            "httpie.cli.definition",
+            "httpie.cli.requestitems",
+            "httpie.client",
+            "httpie.core",
+            "httpie.models",
+            "httpie.output.models",
+            "httpie.output.ui.rich_help"
+        ],
+        "name": "httpie.cli.constants",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\constants.py"
+    },
+    "httpie.cli.definition": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core",
+            "httpie.manager.__main__",
+            "httpie.manager.tasks.export_args"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.argtypes",
+            "httpie.cli.constants",
+            "httpie.cli.options",
+            "httpie.output",
+            "httpie.output.formatters",
+            "httpie.output.formatters.colors",
+            "httpie.plugins",
+            "httpie.plugins.builtin",
+            "httpie.plugins.registry",
+            "httpie.ssl_"
+        ],
+        "name": "httpie.cli.definition",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\definition.py"
+    },
+    "httpie.cli.dicts": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.adapters",
+            "httpie.cli.requestitems",
+            "httpie.client",
+            "httpie.output.writer",
+            "httpie.sessions",
+            "httpie.uploads"
+        ],
+        "imports": [
+            "multidict"
+        ],
+        "name": "httpie.cli.dicts",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\dicts.py"
+    },
+    "httpie.cli.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.requestitems"
+        ],
+        "name": "httpie.cli.exceptions",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\exceptions.py"
+    },
+    "httpie.cli.nested_json": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.requestitems",
+            "httpie.client",
+            "httpie.core"
+        ],
+        "imports": [
+            "httpie.cli.nested_json.errors",
+            "httpie.cli.nested_json.interpret",
+            "httpie.cli.nested_json.tokens"
+        ],
+        "name": "httpie.cli.nested_json",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\nested_json\\__init__.py"
+    },
+    "httpie.cli.nested_json.errors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.nested_json",
+            "httpie.cli.nested_json.interpret",
+            "httpie.cli.nested_json.parse"
+        ],
+        "imports": [
+            "httpie.cli.nested_json.tokens"
+        ],
+        "name": "httpie.cli.nested_json.errors",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\nested_json\\errors.py"
+    },
+    "httpie.cli.nested_json.interpret": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.nested_json"
+        ],
+        "imports": [
+            "httpie.cli.nested_json.errors",
+            "httpie.cli.nested_json.parse",
+            "httpie.cli.nested_json.tokens"
+        ],
+        "name": "httpie.cli.nested_json.interpret",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\nested_json\\interpret.py"
+    },
+    "httpie.cli.nested_json.parse": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.nested_json.interpret"
+        ],
+        "imports": [
+            "httpie.cli.nested_json.errors",
+            "httpie.cli.nested_json.tokens"
+        ],
+        "name": "httpie.cli.nested_json.parse",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\nested_json\\parse.py"
+    },
+    "httpie.cli.nested_json.tokens": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.nested_json",
+            "httpie.cli.nested_json.errors",
+            "httpie.cli.nested_json.interpret",
+            "httpie.cli.nested_json.parse"
+        ],
+        "name": "httpie.cli.nested_json.tokens",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\nested_json\\tokens.py"
+    },
+    "httpie.cli.options": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.definition",
+            "httpie.manager.cli",
+            "httpie.manager.tasks.export_args",
+            "httpie.output.ui.rich_help"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.argparser",
+            "httpie.cli.utils"
+        ],
+        "name": "httpie.cli.options",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\options.py"
+    },
+    "httpie.cli.requestitems": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser"
+        ],
+        "imports": [
+            "httpie.cli.argtypes",
+            "httpie.cli.constants",
+            "httpie.cli.dicts",
+            "httpie.cli.exceptions",
+            "httpie.cli.nested_json",
+            "httpie.utils"
+        ],
+        "name": "httpie.cli.requestitems",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\requestitems.py"
+    },
+    "httpie.cli.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.options"
+        ],
+        "name": "httpie.cli.utils",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cli\\utils.py"
+    },
+    "httpie.client": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.adapters",
+            "httpie.cli",
+            "httpie.cli.constants",
+            "httpie.cli.dicts",
+            "httpie.cli.nested_json",
+            "httpie.context",
+            "httpie.encoding",
+            "httpie.models",
+            "httpie.plugins",
+            "httpie.plugins.registry",
+            "httpie.sessions",
+            "httpie.ssl_",
+            "httpie.uploads",
+            "httpie.utils",
+            "requests",
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "httpie.client",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\client.py"
+    },
+    "httpie.compat": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.config",
+            "httpie.context",
+            "httpie.internal.daemons",
+            "httpie.manager.compat",
+            "httpie.manager.tasks.plugins",
+            "httpie.models",
+            "httpie.plugins.manager",
+            "httpie.ssl_",
+            "httpie.uploads",
+            "httpie.utils"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cookies"
+        ],
+        "name": "httpie.compat",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\compat.py"
+    },
+    "httpie.config": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.context",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.compat",
+            "httpie.encoding"
+        ],
+        "name": "httpie.config",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\config.py"
+    },
+    "httpie.context": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.client",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.internal.daemon_runner",
+            "httpie.internal.update_warnings",
+            "httpie.manager.__main__",
+            "httpie.manager.core",
+            "httpie.manager.tasks.check_updates",
+            "httpie.manager.tasks.export_args",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions",
+            "httpie.output.formatters.colors",
+            "httpie.output.models",
+            "httpie.output.processing",
+            "httpie.output.streams",
+            "httpie.output.ui.man_pages",
+            "httpie.output.ui.rich_progress",
+            "httpie.output.writer",
+            "httpie.sessions",
+            "httpie.uploads"
+        ],
+        "imports": [
+            "colorama",
+            "colorama.AnsiToWin32",
+            "colorama.initialise",
+            "httpie",
+            "httpie.compat",
+            "httpie.config",
+            "httpie.encoding",
+            "httpie.output",
+            "httpie.output.ui",
+            "httpie.output.ui.palette",
+            "httpie.output.ui.rich_palette",
+            "httpie.utils",
+            "rich",
+            "rich.console"
+        ],
+        "name": "httpie.context",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\context.py"
+    },
+    "httpie.cookies": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.compat",
+            "httpie.sessions"
+        ],
+        "name": "httpie.cookies",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\cookies.py"
+    },
+    "httpie.core": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.__main__",
+            "httpie.internal.daemons",
+            "httpie.manager.__main__"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.constants",
+            "httpie.cli.definition",
+            "httpie.cli.nested_json",
+            "httpie.client",
+            "httpie.context",
+            "httpie.downloads",
+            "httpie.internal",
+            "httpie.internal.daemon_runner",
+            "httpie.internal.update_warnings",
+            "httpie.models",
+            "httpie.output",
+            "httpie.output.models",
+            "httpie.output.writer",
+            "httpie.plugins",
+            "httpie.plugins.registry",
+            "httpie.status",
+            "httpie.utils",
+            "pygments",
+            "requests",
+            "requests.__version__"
+        ],
+        "name": "httpie.core",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\core.py"
+    },
+    "httpie.downloads": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.models",
+            "httpie.output",
+            "httpie.output.streams",
+            "httpie.output.ui",
+            "httpie.output.ui.rich_progress",
+            "requests"
+        ],
+        "name": "httpie.downloads",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\downloads.py"
+    },
+    "httpie.encoding": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.client",
+            "httpie.config",
+            "httpie.context",
+            "httpie.output.formatters.xml",
+            "httpie.output.streams"
+        ],
+        "imports": [
+            "charset_normalizer",
+            "charset_normalizer.constant"
+        ],
+        "name": "httpie.encoding",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\encoding.py"
+    },
+    "httpie.internal": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core",
+            "httpie.internal.daemon_runner",
+            "httpie.internal.update_warnings",
+            "httpie.manager.tasks.check_updates"
+        ],
+        "name": "httpie.internal",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\internal\\__init__.py"
+    },
+    "httpie.internal.__build_channel__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.internal.update_warnings"
+        ],
+        "name": "httpie.internal.__build_channel__",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\internal\\__build_channel__.py"
+    },
+    "httpie.internal.daemon_runner": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.internal",
+            "httpie.internal.update_warnings",
+            "httpie.status"
+        ],
+        "name": "httpie.internal.daemon_runner",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\internal\\daemon_runner.py"
+    },
+    "httpie.internal.daemons": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.internal.update_warnings"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.__main__",
+            "httpie.compat",
+            "httpie.core"
+        ],
+        "name": "httpie.internal.daemons",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\internal\\daemons.py"
+    },
+    "httpie.internal.update_warnings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core",
+            "httpie.internal.daemon_runner",
+            "httpie.manager.tasks.check_updates"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.internal",
+            "httpie.internal.__build_channel__",
+            "httpie.internal.daemons",
+            "httpie.utils",
+            "requests"
+        ],
+        "name": "httpie.internal.update_warnings",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\internal\\update_warnings.py"
+    },
+    "httpie.legacy": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks.sessions",
+            "httpie.sessions"
+        ],
+        "name": "httpie.legacy",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\legacy\\__init__.py"
+    },
+    "httpie.legacy.v3_1_0_session_cookie_format": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks.sessions",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.sessions"
+        ],
+        "name": "httpie.legacy.v3_1_0_session_cookie_format",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\legacy\\v3_1_0_session_cookie_format.py"
+    },
+    "httpie.legacy.v3_2_0_session_header_format": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks.sessions",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.sessions"
+        ],
+        "name": "httpie.legacy.v3_2_0_session_header_format",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\legacy\\v3_2_0_session_header_format.py"
+    },
+    "httpie.manager": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.__main__",
+            "httpie.manager.core",
+            "httpie.manager.tasks",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions"
+        ],
+        "name": "httpie.manager",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\__init__.py"
+    },
+    "httpie.manager.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.definition",
+            "httpie.context",
+            "httpie.core",
+            "httpie.manager",
+            "httpie.manager.cli",
+            "httpie.manager.core",
+            "httpie.status"
+        ],
+        "name": "httpie.manager.__main__",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\__main__.py"
+    },
+    "httpie.manager.cli": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.__main__",
+            "httpie.manager.core",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.argparser",
+            "httpie.cli.options"
+        ],
+        "name": "httpie.manager.cli",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\cli.py"
+    },
+    "httpie.manager.compat": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks.plugins"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.compat"
+        ],
+        "name": "httpie.manager.compat",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\compat.py"
+    },
+    "httpie.manager.core": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.__main__"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.manager",
+            "httpie.manager.cli",
+            "httpie.manager.tasks",
+            "httpie.status"
+        ],
+        "name": "httpie.manager.core",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\core.py"
+    },
+    "httpie.manager.tasks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.core",
+            "httpie.manager.tasks"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.manager",
+            "httpie.manager.tasks",
+            "httpie.manager.tasks.check_updates",
+            "httpie.manager.tasks.export_args",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions"
+        ],
+        "name": "httpie.manager.tasks",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\tasks\\__init__.py"
+    },
+    "httpie.manager.tasks.check_updates": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.internal",
+            "httpie.internal.update_warnings",
+            "httpie.status"
+        ],
+        "name": "httpie.manager.tasks.check_updates",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\tasks\\check_updates.py"
+    },
+    "httpie.manager.tasks.export_args": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.definition",
+            "httpie.cli.options",
+            "httpie.context",
+            "httpie.output",
+            "httpie.output.writer",
+            "httpie.status"
+        ],
+        "name": "httpie.manager.tasks.export_args",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\tasks\\export_args.py"
+    },
+    "httpie.manager.tasks.plugins": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.compat",
+            "httpie.context",
+            "httpie.manager",
+            "httpie.manager.cli",
+            "httpie.manager.compat",
+            "httpie.plugins",
+            "httpie.plugins.manager",
+            "httpie.plugins.registry",
+            "httpie.status",
+            "httpie.utils"
+        ],
+        "name": "httpie.manager.tasks.plugins",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\tasks\\plugins.py"
+    },
+    "httpie.manager.tasks.sessions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "httpie.legacy",
+            "httpie.legacy.v3_1_0_session_cookie_format",
+            "httpie.legacy.v3_2_0_session_header_format",
+            "httpie.manager",
+            "httpie.manager.cli",
+            "httpie.sessions",
+            "httpie.status",
+            "httpie.utils"
+        ],
+        "name": "httpie.manager.tasks.sessions",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\manager\\tasks\\sessions.py"
+    },
+    "httpie.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.client",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.output.lexers.metadata",
+            "httpie.output.streams",
+            "httpie.output.writer"
+        ],
+        "imports": [
+            "httpie.cli",
+            "httpie.cli.constants",
+            "httpie.compat",
+            "httpie.utils",
+            "requests",
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "httpie.models",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\models.py"
+    },
+    "httpie.output": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.context",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.manager.tasks.export_args",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.metadata",
+            "httpie.output.models",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette",
+            "httpie.output.ui.rich_utils",
+            "httpie.plugins.registry"
+        ],
+        "name": "httpie.output",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\__init__.py"
+    },
+    "httpie.output.formatters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.definition",
+            "httpie.output.models",
+            "httpie.plugins.registry"
+        ],
+        "name": "httpie.output.formatters",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\formatters\\__init__.py"
+    },
+    "httpie.output.formatters.colors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.definition",
+            "httpie.output.models",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "httpie.context",
+            "httpie.output.lexers",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.json",
+            "httpie.output.lexers.metadata",
+            "httpie.output.ui",
+            "httpie.output.ui.palette",
+            "httpie.plugins",
+            "pygments",
+            "pygments.formatters",
+            "pygments.formatters.terminal",
+            "pygments.formatters.terminal256",
+            "pygments.lexer",
+            "pygments.lexers",
+            "pygments.lexers.data",
+            "pygments.lexers.special",
+            "pygments.lexers.text",
+            "pygments.style",
+            "pygments.styles",
+            "pygments.token",
+            "pygments.util"
+        ],
+        "name": "httpie.output.formatters.colors",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\formatters\\colors.py"
+    },
+    "httpie.output.formatters.headers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "httpie.plugins"
+        ],
+        "name": "httpie.output.formatters.headers",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\formatters\\headers.py"
+    },
+    "httpie.output.formatters.json": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "httpie.output.utils",
+            "httpie.plugins"
+        ],
+        "name": "httpie.output.formatters.json",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\formatters\\json.py"
+    },
+    "httpie.output.formatters.xml": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "defusedxml",
+            "defusedxml.common",
+            "defusedxml.minidom",
+            "httpie.encoding",
+            "httpie.plugins"
+        ],
+        "name": "httpie.output.formatters.xml",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\formatters\\xml.py"
+    },
+    "httpie.output.lexers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.metadata",
+            "httpie.output.utils"
+        ],
+        "name": "httpie.output.lexers",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\lexers\\__init__.py"
+    },
+    "httpie.output.lexers.common": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.metadata"
+        ],
+        "name": "httpie.output.lexers.common",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\lexers\\common.py"
+    },
+    "httpie.output.lexers.http": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.output",
+            "httpie.output.lexers",
+            "httpie.output.lexers.common",
+            "pygments"
+        ],
+        "name": "httpie.output.lexers.http",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\lexers\\http.py"
+    },
+    "httpie.output.lexers.json": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.formatters.colors",
+            "httpie.output.utils"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexer",
+            "pygments.lexers",
+            "pygments.lexers.data",
+            "pygments.token"
+        ],
+        "name": "httpie.output.lexers.json",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\lexers\\json.py"
+    },
+    "httpie.output.lexers.metadata": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.models",
+            "httpie.output",
+            "httpie.output.lexers",
+            "httpie.output.lexers.common",
+            "pygments"
+        ],
+        "name": "httpie.output.lexers.metadata",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\lexers\\metadata.py"
+    },
+    "httpie.output.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core",
+            "httpie.output.writer"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.argtypes",
+            "httpie.cli.constants",
+            "httpie.context",
+            "httpie.output",
+            "httpie.output.formatters",
+            "httpie.output.formatters.colors"
+        ],
+        "name": "httpie.output.models",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\models.py"
+    },
+    "httpie.output.processing": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.streams",
+            "httpie.output.writer"
+        ],
+        "imports": [
+            "httpie.context",
+            "httpie.plugins",
+            "httpie.plugins.registry"
+        ],
+        "name": "httpie.output.processing",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\processing.py"
+    },
+    "httpie.output.streams": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.downloads",
+            "httpie.output.writer"
+        ],
+        "imports": [
+            "httpie.context",
+            "httpie.encoding",
+            "httpie.models",
+            "httpie.output.processing",
+            "httpie.utils"
+        ],
+        "name": "httpie.output.streams",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\streams.py"
+    },
+    "httpie.output.ui": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.context",
+            "httpie.downloads",
+            "httpie.output.formatters.colors",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette",
+            "httpie.output.ui.rich_utils"
+        ],
+        "name": "httpie.output.ui",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\__init__.py"
+    },
+    "httpie.output.ui.man_pages": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context"
+        ],
+        "name": "httpie.output.ui.man_pages",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\man_pages.py"
+    },
+    "httpie.output.ui.palette": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.context",
+            "httpie.output.formatters.colors",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette"
+        ],
+        "name": "httpie.output.ui.palette",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\palette.py"
+    },
+    "httpie.output.ui.rich_help": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.cli",
+            "httpie.cli.constants",
+            "httpie.cli.options",
+            "httpie.output",
+            "httpie.output.ui",
+            "httpie.output.ui.palette",
+            "rich",
+            "rich.console",
+            "rich.highlighter",
+            "rich.padding",
+            "rich.table",
+            "rich.text"
+        ],
+        "name": "httpie.output.ui.rich_help",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\rich_help.py"
+    },
+    "httpie.output.ui.rich_palette": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.context",
+            "httpie.output.ui.rich_utils"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.output",
+            "httpie.output.ui",
+            "httpie.output.ui.palette",
+            "rich",
+            "rich.style",
+            "rich.theme"
+        ],
+        "name": "httpie.output.ui.rich_palette",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\rich_palette.py"
+    },
+    "httpie.output.ui.rich_progress": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.downloads"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.context",
+            "rich",
+            "rich.console",
+            "rich.filesize",
+            "rich.progress"
+        ],
+        "name": "httpie.output.ui.rich_progress",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\rich_progress.py"
+    },
+    "httpie.output.ui.rich_utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.output",
+            "httpie.output.ui",
+            "httpie.output.ui.rich_palette",
+            "rich",
+            "rich.console",
+            "rich.highlighter"
+        ],
+        "name": "httpie.output.ui.rich_utils",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\ui\\rich_utils.py"
+    },
+    "httpie.output.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.output.formatters.json"
+        ],
+        "imports": [
+            "httpie.output.lexers",
+            "httpie.output.lexers.json",
+            "httpie.utils"
+        ],
+        "name": "httpie.output.utils",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\utils.py"
+    },
+    "httpie.output.writer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.core",
+            "httpie.manager.tasks.export_args"
+        ],
+        "imports": [
+            "httpie.cli",
+            "httpie.cli.dicts",
+            "httpie.context",
+            "httpie.models",
+            "httpie.output.models",
+            "httpie.output.processing",
+            "httpie.output.streams",
+            "httpie.utils",
+            "requests"
+        ],
+        "name": "httpie.output.writer",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\output\\writer.py"
+    },
+    "httpie.plugins": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.client",
+            "httpie.core",
+            "httpie.manager.tasks.plugins",
+            "httpie.output.formatters.colors",
+            "httpie.output.formatters.headers",
+            "httpie.output.formatters.json",
+            "httpie.output.formatters.xml",
+            "httpie.output.processing",
+            "httpie.plugins.manager",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie.plugins.base"
+        ],
+        "name": "httpie.plugins",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\plugins\\__init__.py"
+    },
+    "httpie.plugins.base": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.plugins",
+            "httpie.plugins.builtin",
+            "httpie.plugins.manager"
+        ],
+        "name": "httpie.plugins.base",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\plugins\\base.py"
+    },
+    "httpie.plugins.builtin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.definition",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "httpie.plugins.base",
+            "requests",
+            "requests.auth"
+        ],
+        "name": "httpie.plugins.builtin",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\plugins\\builtin.py"
+    },
+    "httpie.plugins.manager": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.manager.tasks.plugins",
+            "httpie.plugins.registry"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.compat",
+            "httpie.plugins",
+            "httpie.plugins.base",
+            "httpie.utils"
+        ],
+        "name": "httpie.plugins.manager",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\plugins\\manager.py"
+    },
+    "httpie.plugins.registry": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.client",
+            "httpie.core",
+            "httpie.manager.tasks.plugins",
+            "httpie.output.processing",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie.output",
+            "httpie.output.formatters",
+            "httpie.output.formatters.colors",
+            "httpie.output.formatters.headers",
+            "httpie.output.formatters.json",
+            "httpie.output.formatters.xml",
+            "httpie.plugins.builtin",
+            "httpie.plugins.manager"
+        ],
+        "name": "httpie.plugins.registry",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\plugins\\registry.py"
+    },
+    "httpie.sessions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argtypes",
+            "httpie.client",
+            "httpie.legacy.v3_1_0_session_cookie_format",
+            "httpie.legacy.v3_2_0_session_header_format",
+            "httpie.manager.tasks.sessions"
+        ],
+        "imports": [
+            "httpie.cli",
+            "httpie.cli.argtypes",
+            "httpie.cli.dicts",
+            "httpie.config",
+            "httpie.context",
+            "httpie.cookies",
+            "httpie.legacy",
+            "httpie.legacy.v3_1_0_session_cookie_format",
+            "httpie.legacy.v3_2_0_session_header_format",
+            "httpie.plugins",
+            "httpie.plugins.registry",
+            "httpie.utils",
+            "requests",
+            "requests.auth",
+            "requests.cookies"
+        ],
+        "name": "httpie.sessions",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\sessions.py"
+    },
+    "httpie.ssl_": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.definition",
+            "httpie.client"
+        ],
+        "imports": [
+            "httpie.adapters",
+            "httpie.compat",
+            "urllib3",
+            "urllib3.util",
+            "urllib3.util.ssl_"
+        ],
+        "name": "httpie.ssl_",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\ssl_.py"
+    },
+    "httpie.status": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.__main__",
+            "httpie.core",
+            "httpie.internal.daemon_runner",
+            "httpie.manager.__main__",
+            "httpie.manager.core",
+            "httpie.manager.tasks.check_updates",
+            "httpie.manager.tasks.export_args",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions"
+        ],
+        "name": "httpie.status",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\status.py"
+    },
+    "httpie.uploads": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.client"
+        ],
+        "imports": [
+            "httpie.cli",
+            "httpie.cli.dicts",
+            "httpie.compat",
+            "httpie.context",
+            "requests",
+            "requests.utils",
+            "requests_toolbelt"
+        ],
+        "name": "httpie.uploads",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\uploads.py"
+    },
+    "httpie.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "httpie.cli.argparser",
+            "httpie.cli.requestitems",
+            "httpie.client",
+            "httpie.context",
+            "httpie.core",
+            "httpie.internal.update_warnings",
+            "httpie.manager.tasks.plugins",
+            "httpie.manager.tasks.sessions",
+            "httpie.models",
+            "httpie.output.streams",
+            "httpie.output.utils",
+            "httpie.output.writer",
+            "httpie.plugins.manager",
+            "httpie.sessions"
+        ],
+        "imports": [
+            "httpie",
+            "httpie.compat",
+            "requests",
+            "requests.auth"
+        ],
+        "name": "httpie.utils",
+        "path": "C:\\Users\\prave\\Desktop\\Sem 6\\OS\\lab9stt\\httpie\\httpie\\utils.py"
+    },
+    "multidict": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.cli.dicts"
+        ],
+        "name": "multidict",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\multidict\\__init__.py"
+    },
+    "pygments": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.core",
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.http",
+            "httpie.output.lexers.json",
+            "httpie.output.lexers.metadata",
+            "pygments",
+            "pygments.formatters",
+            "pygments.formatters.terminal",
+            "pygments.formatters.terminal256",
+            "pygments.lexer",
+            "pygments.lexers",
+            "pygments.lexers.data",
+            "pygments.lexers.special",
+            "pygments.lexers.text",
+            "pygments.style",
+            "pygments.styles"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexer"
+        ],
+        "name": "pygments",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\__init__.py"
+    },
+    "pygments.formatters": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "pygments.formatters"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.formatters",
+            "pygments.util"
+        ],
+        "name": "pygments.formatters",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\formatters\\__init__.py"
+    },
+    "pygments.formatters.terminal": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.token",
+            "pygments.util"
+        ],
+        "name": "pygments.formatters.terminal",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\formatters\\terminal.py"
+    },
+    "pygments.formatters.terminal256": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.style"
+        ],
+        "name": "pygments.formatters.terminal256",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\formatters\\terminal256.py"
+    },
+    "pygments.lexer": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.json",
+            "pygments",
+            "pygments.lexers.data",
+            "pygments.lexers.special"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.token",
+            "pygments.util"
+        ],
+        "name": "pygments.lexer",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\lexer.py"
+    },
+    "pygments.lexers": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.json",
+            "pygments.lexers",
+            "pygments.lexers.text"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexers",
+            "pygments.util"
+        ],
+        "name": "pygments.lexers",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\lexers\\__init__.py"
+    },
+    "pygments.lexers.data": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.json",
+            "pygments.lexers.text"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexer",
+            "pygments.token"
+        ],
+        "name": "pygments.lexers.data",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\lexers\\data.py"
+    },
+    "pygments.lexers.special": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexer",
+            "pygments.token",
+            "pygments.util"
+        ],
+        "name": "pygments.lexers.special",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\lexers\\special.py"
+    },
+    "pygments.lexers.text": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.lexers",
+            "pygments.lexers.data"
+        ],
+        "name": "pygments.lexers.text",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\lexers\\text.py"
+    },
+    "pygments.style": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "pygments.formatters.terminal256"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.token"
+        ],
+        "name": "pygments.style",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\style.py"
+    },
+    "pygments.styles": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors"
+        ],
+        "imports": [
+            "pygments",
+            "pygments.util"
+        ],
+        "name": "pygments.styles",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\styles\\__init__.py"
+    },
+    "pygments.token": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "httpie.output.lexers.json",
+            "pygments.formatters.terminal",
+            "pygments.lexer",
+            "pygments.lexers.data",
+            "pygments.lexers.special",
+            "pygments.style"
+        ],
+        "name": "pygments.token",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\token.py"
+    },
+    "pygments.util": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.formatters.colors",
+            "pygments.formatters",
+            "pygments.formatters.terminal",
+            "pygments.lexer",
+            "pygments.lexers",
+            "pygments.lexers.special",
+            "pygments.styles"
+        ],
+        "name": "pygments.util",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\pygments\\util.py"
+    },
+    "requests": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.adapters",
+            "httpie.cli.argparser",
+            "httpie.client",
+            "httpie.core",
+            "httpie.downloads",
+            "httpie.internal.update_warnings",
+            "httpie.models",
+            "httpie.output.writer",
+            "httpie.plugins.builtin",
+            "httpie.sessions",
+            "httpie.uploads",
+            "httpie.utils",
+            "requests",
+            "requests.utils"
+        ],
+        "imports": [
+            "charset_normalizer",
+            "requests",
+            "requests.__version__",
+            "requests.utils",
+            "urllib3"
+        ],
+        "name": "requests",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\__init__.py"
+    },
+    "requests.__version__": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.core",
+            "requests",
+            "requests.utils"
+        ],
+        "name": "requests.__version__",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\__version__.py"
+    },
+    "requests.adapters": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.adapters"
+        ],
+        "imports": [
+            "requests.auth",
+            "requests.cookies",
+            "requests.utils",
+            "urllib3",
+            "urllib3.util",
+            "urllib3.util.ssl_"
+        ],
+        "name": "requests.adapters",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\adapters.py"
+    },
+    "requests.auth": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.plugins.builtin",
+            "httpie.sessions",
+            "httpie.utils",
+            "requests.adapters"
+        ],
+        "imports": [
+            "requests.cookies",
+            "requests.utils"
+        ],
+        "name": "requests.auth",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\auth.py"
+    },
+    "requests.cookies": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.sessions",
+            "requests.adapters",
+            "requests.auth",
+            "requests.utils"
+        ],
+        "name": "requests.cookies",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\cookies.py"
+    },
+    "requests.utils": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.cli.argparser",
+            "httpie.uploads",
+            "requests",
+            "requests.adapters",
+            "requests.auth"
+        ],
+        "imports": [
+            "requests",
+            "requests.__version__",
+            "requests.cookies",
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "requests.utils",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests\\utils.py"
+    },
+    "requests_toolbelt": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.uploads"
+        ],
+        "name": "requests_toolbelt",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests_toolbelt\\__init__.py"
+    },
+    "rich": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.cli.argparser",
+            "httpie.context",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_palette",
+            "httpie.output.ui.rich_progress",
+            "httpie.output.ui.rich_utils",
+            "rich",
+            "rich.console",
+            "rich.padding",
+            "rich.progress",
+            "rich.style",
+            "rich.table",
+            "rich.text"
+        ],
+        "imports": [
+            "rich",
+            "rich.console"
+        ],
+        "name": "rich",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\__init__.py"
+    },
+    "rich.console": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.context",
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_progress",
+            "httpie.output.ui.rich_utils",
+            "rich",
+            "rich.highlighter",
+            "rich.padding",
+            "rich.progress",
+            "rich.table",
+            "rich.text"
+        ],
+        "imports": [
+            "rich",
+            "rich.highlighter",
+            "rich.style",
+            "rich.text",
+            "rich.theme"
+        ],
+        "name": "rich.console",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\console.py"
+    },
+    "rich.filesize": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_progress",
+            "rich.progress"
+        ],
+        "name": "rich.filesize",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\filesize.py"
+    },
+    "rich.highlighter": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_help",
+            "httpie.output.ui.rich_utils",
+            "rich.console",
+            "rich.progress",
+            "rich.table"
+        ],
+        "imports": [
+            "rich.console",
+            "rich.text"
+        ],
+        "name": "rich.highlighter",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\highlighter.py"
+    },
+    "rich.padding": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_help",
+            "rich.table"
+        ],
+        "imports": [
+            "rich",
+            "rich.console",
+            "rich.style"
+        ],
+        "name": "rich.padding",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\padding.py"
+    },
+    "rich.progress": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_progress"
+        ],
+        "imports": [
+            "rich",
+            "rich.console",
+            "rich.filesize",
+            "rich.highlighter",
+            "rich.style",
+            "rich.table",
+            "rich.text"
+        ],
+        "name": "rich.progress",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\progress.py"
+    },
+    "rich.style": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_palette",
+            "rich.console",
+            "rich.padding",
+            "rich.progress",
+            "rich.table",
+            "rich.text",
+            "rich.theme"
+        ],
+        "imports": [
+            "rich"
+        ],
+        "name": "rich.style",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\style.py"
+    },
+    "rich.table": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_help",
+            "rich.progress",
+            "rich.table"
+        ],
+        "imports": [
+            "rich",
+            "rich.console",
+            "rich.highlighter",
+            "rich.padding",
+            "rich.style",
+            "rich.table",
+            "rich.text"
+        ],
+        "name": "rich.table",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\table.py"
+    },
+    "rich.text": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.cli.argparser",
+            "httpie.output.ui.rich_help",
+            "rich.console",
+            "rich.highlighter",
+            "rich.progress",
+            "rich.table"
+        ],
+        "imports": [
+            "rich",
+            "rich.console",
+            "rich.style"
+        ],
+        "name": "rich.text",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\text.py"
+    },
+    "rich.theme": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.output.ui.rich_palette",
+            "rich.console"
+        ],
+        "imports": [
+            "rich.style"
+        ],
+        "name": "rich.theme",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\theme.py"
+    },
+    "urllib3": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.client",
+            "httpie.models",
+            "httpie.ssl_",
+            "requests",
+            "requests.adapters",
+            "requests.utils",
+            "urllib3"
+        ],
+        "imports": [
+            "urllib3",
+            "urllib3.util"
+        ],
+        "name": "urllib3",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\urllib3\\__init__.py"
+    },
+    "urllib3.util": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.client",
+            "httpie.models",
+            "httpie.ssl_",
+            "requests.adapters",
+            "requests.utils",
+            "urllib3"
+        ],
+        "imports": [
+            "urllib3.util.ssl_"
+        ],
+        "name": "urllib3.util",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\urllib3\\util\\__init__.py"
+    },
+    "urllib3.util.ssl_": {
+        "bacon": 2,
+        "imported_by": [
+            "httpie.ssl_",
+            "requests.adapters",
+            "urllib3.util"
+        ],
+        "name": "urllib3.util.ssl_",
+        "path": "C:\\Users\\prave\\AppData\\Roaming\\Python\\Python311\\site-packages\\urllib3\\util\\ssl_.py"
+    }
+}
